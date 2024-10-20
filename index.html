@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--MAİN CSS-->
+<link rel="stylesheet" href="styles.css">
+        <title>MY BLOG</title>
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+      <header class="header">
+        <a href="#" class="logo">MY BLOG</a>
+        <i class="fa-solid fa-bars" id="menü-ikonu"></i>
+
+
+        <nav class="navbar"> 
+        <a href="#anasayfa" class="active">Anasayfa</a>
+        <a href="#hakkımda">Hakkımda</a>
+        <a href="#projeler">Projeler</a>
+        <a href="#anket">Anket</a>
+        </nav>
+
+      </header>
+
+      
+    <!-- ANASAYFA SECTION DESIGN -->
+     <section class="anasayfa" id="anasayfa">
+        <div class="anasayfa-content">
+             <h3>Merhaba,Bloğuma Hoşgeldiniz</h3>
+             <h1>Esma Genç</h1>
+             <h3>Düzce Üniversitesi <span>Bilgisayar Mühendisliği</span> Bölümü öğrencisiyim.</h3>
+             <p></p>
+             <div class="sosyal-medya">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            
+             </div>
+        </div>
+   <div class="anasayfa-img">
+    <img src="anasayfa.jpeg" alt="" srcset="">
+   </div>
+     </section>
+
+     <!--HAKKIMDA SECTION DESIGN-->
+     <section class="hakkımda" id="hakkımda">
+        <div class="hakkımda-img">
+            <img src="hakkımda.jpeg" alt="" srcset="">
+        </div>
+        <div class="hakkımda-content">
+            <h2 class="heading"><span>HAKKIMDA</span></h2>
+            <h3>Bilgisayar Mühendisliği Öğrencisi</h3>
+            <p>...</p>
+            <a href="hakkımda.html" class="btn">Devamı</a>
+ 
+        </div>
+     </section>
+
+     <!--PROJELER SECTION DESİGN-->
+     <section class="projeler" id="projeler">
+        <h2 class="heading"><span>Projeler</span></h2>
+        <div class="projeler-container">
+            <div class="projeler-box">
+
+            </div>
+        </div>
+     </section>
+     <!--ANKET SECTION DESİGN-->
+     <section class="anket" id="anket">
+       <h2 class="heading"><span>Anket</span></h2> 
+       <div class="anket-box">
+        <img src="anket.jpeg" alt="">
+    </div>
+       <form>
+        <div id="content1">
+          <label> <b>Ad</b></label><br>
+          <input type="name" name=" Ad" placeholder="İsim" class="box"> <br>
+          <label><b>Email</b></label><br>
+          <input type="email" name="email" placeholder="Email" class="box"><br>
+          <label><b>Yaş</b></label><br>
+          <input type="age" name="age" placeholder="Yaş" class="box"><br>
+          <br>
+
+          <div id="option1">
+            <select>
+              <option name = "Mesleğinizi seçiniz.">Mesleğinizi seçiniz.</option>
+              <option value="Öğrenci">Öğrenci</option>
+            <option value="Öğretmen">Öğretmen</option>
+            <option value="Diğer">Diğer</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <label id="head1">Düzceyi seviyor musunuz?</label><br><br>
+        <input type="radio" name="radio" class="larger"> <b>Evet</b> <br><br>
+        <input type="radio" name="radio" class="larger"><b>Hayır</b> <br><br>
+        <input type="radio" name="radio" class="larger"><b>Biraz</b> <br><br>
+        <label id="head2"><b>En sevdiğiniz sosyal medya platformu nedir?</b></label> <br>
+        <div id="option2">
+         <input type="checkbox" name="checkbox" class="larger"><label> <b>İnstagram</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label> <b>YouTube</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label> <b>TikTok</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label> <b>X</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label><b>Facebook</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label><b>Pinterest</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label><b>VSCO</b></label><br>
+         <input type="checkbox" name="checkbox" class="larger"><label><b>WhatsApp</b></label><br>
+      <br>
+         <button><h3>Kaydet</h3></button>
+        </div>
+
+       </form>
+        
+       
+
+     </section>
+     <!-- SCROLL REVEAL -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     
+     <!-- MAİN JS -->
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
